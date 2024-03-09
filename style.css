@@ -1,0 +1,316 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0e1e08;
+}
+
+/* arrow button to up */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #FBBD14;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#myBtn:hover {
+    background-color: #204B12;
+}
+
+.main-container {
+    background-color: #FBBD14;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.main-container .main-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #121212; 
+    height: 100px;
+}
+
+.top-container .row-header {
+    padding: 0px 120px 0px 120px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container .col-header {
+    margin-top: 10px;
+}
+
+.top-container .main-list {
+    list-style-type: none;
+    float: right;
+}
+
+.top-container .main-list .list {
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.top-container .main-list .list .list-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000; 
+}
+
+.nav-item {
+    color: #000000;;
+}
+
+.footer-container {
+    margin-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+/* MAIN PAGE STYLE */
+
+.first-container {
+    height: 660px;
+    background-image: url("icons/BG.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+/*first container content*/
+.first-container .comp-cont{
+    position: absolute;
+    top: 25%;
+    left: 54%;
+    width: auto;
+}
+.first-container .lp-cont{
+    width: auto;
+    position: absolute;
+    top: 12%;
+}
+/*icon positioning*/
+.comp-png{
+    height: 80vh;
+    width: 400px;
+    position: relative;
+    left: 74%;
+}
+.lp-png{
+    height: 90vh;
+    width: 470px;
+    position: relative;
+}
+.banner-container {
+    display: flex;
+    width: auto;
+}
+
+.line-break{
+    width: auto;
+    height: 3px;
+    background-color: #FBBD14;
+}
+
+.line-break2{
+    width: 30%;
+    height: 3px;
+    background-color: #FBBD14;
+}
+
+.lb-con{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-webjam-2{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.first-container .textnbutton {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.head-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    color: #ffc20e;
+    text-align: center;
+}
+
+.img-head {
+    width: 800px;
+    height: 150px;
+}
+
+.see-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #ffc20e;
+    text-align: center;
+
+    margin-top: 50px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.see-button:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: rgb(28, 128, 48);
+    box-shadow: 0px 0px 2px 2px #ffffff;
+    transition: 0.5s;
+}
+
+.button-text {
+    text-decoration: none;
+    color: white;
+}
+
+.button-text:hover {
+    color: white;
+}
+
+.second-container {
+    background-image: url("assets/TECHNO WEEK.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.poster {
+    width: 423px;
+    height: 485px;
+    margin-top: 20px;
+}
+
+.header-about {
+    width: 628px;
+    height: 126px;
+}
+
+.header-about h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #FBBD14;
+    text-transform: uppercase;
+}
+
+.sub-about {
+    width: 636px;
+    height: 23px;
+    margin-top: 20%;
+}
+
+.sub-about p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.participant-container {
+    margin-top: 3%;
+    padding: 0px 11% 0px 11%;
+}
+
+.participant-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffc20e;
+    text-transform: uppercase;
+}
+
+.participant-container p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.row-orgs {
+    margin-top: 40px;
+}
+
+.orgs-logo {
+    width: auto;
+    height: 250px;
+}
+
+.orgs-logo:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/* EVENTS STYLE */
+
+.events-header-container {
+    margin-top: 5%;
+}
+
+.events-header-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffc20e;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.events-main-container {
+    margin-top: 5%;
+}
+
+.about-container-events {
+    margin-bottom: 5%;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*list*/
+.list:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 1s;
+}

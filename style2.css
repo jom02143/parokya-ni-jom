@@ -1,0 +1,240 @@
+body {
+    background-color: #141B0D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* arrow button to up */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #FBBD14;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#myBtn:hover {
+    background-color: #204B12;
+}
+
+.top-container {
+    background-color: #FBBD14;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-container .main-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #121212; 
+
+    height: 100px;
+}
+
+.top-container .row-header {
+    padding: 0px 120px 0px 120px;
+}
+
+.top-container .col-header {
+    margin-top: 10px;
+}
+
+.top-container .main-list {
+    list-style-type: none;
+    float: right;
+}
+
+.top-container .main-list .list {
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.top-container .main-list .list .list-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000; 
+}
+
+.nav-item {
+    color: #000000;;
+}
+
+.footer-container {
+    margin-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+/* MAIN PAGE STYLE */
+
+.first-container {
+    height: 660px;
+}
+
+.banner-conatiner {
+    position: relative;
+}
+
+.textnbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.head-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    color: #ffc20e;
+    text-align: center;
+}
+
+.img-head {
+    width: 1110px;
+    height: 211px;
+}
+
+.see-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #ffc20e;
+    text-align: center;
+
+    margin-top: 50px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.button-text {
+    text-decoration: none;
+    color: white;
+}
+
+.button-text:hover {
+    color: white;
+}
+
+.second-container {
+    margin-top: 3%;
+}
+
+.poster {
+    width: 423px;
+    height: 485px;
+    border: 5px solid #ffc20e;
+}
+
+.posters, .posters1, .posters2, .posters3 {
+    display: none;
+    border: 5px solid #ffc20e;
+}
+
+.header-about {
+    width: 628px;
+    height: 126px;
+}
+
+.header-about h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #FBBD14;
+    text-transform: uppercase;
+}
+
+.sub-about {
+    width: 636px;
+    height: 23px;
+    margin-top: 10%;
+}
+
+.sub-about p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.participant-container {
+    margin-top: 8%;
+    padding: 0px 11% 0px 11%;
+}
+
+.participant-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffc20e;
+    text-transform: uppercase;
+}
+
+.participant-container p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.row-orgs {
+    margin-top: 40px;
+}
+
+.orgs-logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* EVENTS STYLE */
+
+/* .events-header-container {
+    margin-top: 5%;
+} */
+
+.events-header-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffc20e;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.events-main-container {
+    margin-top: 5%;
+}
+
+.about-container-events {
+    margin-bottom: 5%;
+}
+
+.event-banner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 1s;
+}
+
